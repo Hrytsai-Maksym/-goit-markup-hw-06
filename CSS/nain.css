@@ -498,9 +498,21 @@ padding: 0px;
   display: block;
  width: 18px;
 height: 18px;
+}
+.modal-name{
+  font-weight: normal;
+font-size: 12px;
+line-height: 1.16;
+/* identical to box height */
 
+letter-spacing: 0.01em;
 
-
+color: #757575;
+}
+.modal-div{
+  display: block;
+  display: flex;
+  justify-content: left;
 }
 /**********************секция 2******************/
 .hide {
@@ -1342,4 +1354,59 @@ margin-right: 0px;
    height: 44px;
    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
+ /*****************************подптсаться*********/
+ /****************************на*****************/
+ /**********************рассылку******************/
  
+ .subscribe-to-the-newsletter{
+margin-left: 93px;
+ }
+ .subscribe-to-the-newsletter-h2{
+display: block;
+
+  font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+margin-bottom: 20px;
+ }
+ .subscribe-to-the-newsletter-input{
+  background: #2F303A;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+ }
+ .subscribe-to-the-newsletter-button{
+   position: relative;
+  /* width: 200px;
+  height: 50px; */
+  margin: 0px;
+
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;  
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  
+  color: #FFFFFF;
+  background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+ }
+.subscribe-to-the-newsletter-svg::after {
+  /* position: absolute; */
+display: inline-flex;
+/* width: 24px;
+height: 24px; */
+
+/* margin-top: 13px; */
+
+}
