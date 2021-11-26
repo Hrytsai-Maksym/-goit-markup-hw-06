@@ -69,28 +69,45 @@
             <button data-modal-open class="button" type="button">Заказать услугу</button>
           </div>
           <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
+            <div class="modal containre-backdrop">
               <button data-modal-close type="button-closet" class="button-closet">
               <svg class="closet-svg">
                 <use href="./image/symbol-defs-closet.svg#icon-close"></use>
               </svg></button>
               <div class="modal-div">
                 <h2 class="modal-h2">Оставьте свои данные, мы вам перезвоним</h2>
-              <form>
-                <label class="modal-name" for="name">Имя</label>
-               <input type="text" name="name" id="name">
+              <form autocomplete="on">
+                <div class="sizing">
+                <div class="form-grup-name"><label class="modal-name" 
+                for="name">Имя</label>
+               <input type="text" 
+               name="name" id="name"
+                placeholder="" 
+                autofocus></div>
+              
+              
+               <div class="form-grup-phone"><label class="modal-name" 
+               for="tel">Телефон</label>
+              <input type="tel" name="telephone"
+               id="tel" placeholder=""></div>
 
-               <label class="modal-name" for="tel">Телефон</label>
-              <input type="tel" name="telephone" id="tel">
+               <div class="form-grup-mail"><label class="modal-name"
+                for="mail">Почта</label>
+               <input type="email" name="mail" 
+               id="mail" placeholder=""></div>
 
-               <label class="modal-name" for="mail">Почта</label>
-               <input type="email" name="mail" id="mail">
+               <div class="form-group-coments"><label class="modal-name" 
+               for="coment">Kоментарий</label>
+                <textarea name="" id="coment"
+                 placeholder="Введите текс">
+                </textarea></div></div></div>
 
-               <label class="modal-name" for="coment">Kоментарий</label>
-                <textarea name="" id="coment" ></textarea>
-
-                <input type="checkbox" name="" id="politika">
-                <label class="modal-name" for="politika">Соглашаюсь с рассылкой и принимаю<Span class="contract">Условия договора</Span> </label>
+               <div class="form-grup"> <input type="checkbox" 
+                name="" id="politika">
+                <label class="modal-name" 
+                for="politika">Соглашаюсь с рассылкой и принимаю
+                <Span class="contract">Условия договора</Span>
+              </label></div>
                <button class="modal-button-send-form" type="submit">Отправить</button>
               </form></div>
             </div>

@@ -432,6 +432,9 @@ padding-top: 200px;
 }
 /*********************бекдроп************************/
 /***************************************************/
+.containre-backdrop{
+  margin: 8px 8px40px 40px;
+}
 .backdrop{
   position: fixed;
   top: 0;
@@ -453,7 +456,7 @@ padding-top: 200px;
 } */
 .modal{
   width: 528px;
-  height: 281px;
+  height: 581px;
   transform: translate(-50%, -50%);
 position: absolute;
 top: 50%;
@@ -474,21 +477,7 @@ box-sizing: border-box;
 background-color: #FFFFFF;
 top: 14px;
 right: 14px;
-  /* position: absolute;
-display: block;
-top: 14px;
-right: 14px;
 
-text-align: center;
-margin: 0px;
-padding: 0px;
-  display: flex;
-  
-
-  height: 30px;
-  height: 30px;
-  top: 14px;
-  right: 14px; */
   
   
 
@@ -522,17 +511,17 @@ letter-spacing: 0.03em;
 
 color: #212121;
 }
-.modal-div{
-  /* display: block;
-  display: flex;
-  justify-content: left; */
-}
+/* .modal-div{
+  position: relative;
+} */
 .modal-button-send-form{
+  
+  bottom: 40px; 
 
 width: 200px;
 height: 50px;
-left: 700px;
-top: 712px;
+/* left: 700px;
+top: 712px; */
 
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -549,6 +538,9 @@ letter-spacing: 0.06em;
 justify-content: center;
 
 color: #FFFFFF;
+/* margin-top: 30px;
+margin-bottom: 40px;
+padding: 0px; */
 }
 .contract{
   font-weight: 400;
@@ -560,6 +552,43 @@ letter-spacing: 0.03em;
 text-decoration-line: underline;
 
 color: #2196F3;
+}
+.form{
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+/* box-sizing: border-box; */
+border-radius: 4px;
+margin-left: auto;
+margin-right: auto;
+/* margin-top: 500px; */
+}
+.form-grup-name,
+.form-grup-phone,
+.form-grup-mail,
+.form-group-coments{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.form-grup input{
+  padding: 11px 12px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  /* box-sizing: border-box; */
+  border-radius: 4px;
+}
+.form-grup label{
+  margin-bottom: 4px;
+}
+/* .sizing{
+  width: 448px;
+  /* height: 342px; */
+  padding: 75px 40px 164px 40px ;
+   
+} */
+.form-group-coments textarea{
+  /* width: 448px; */
+  height: 120px;
 }
 /**********************секция 2******************/
 .hide {
