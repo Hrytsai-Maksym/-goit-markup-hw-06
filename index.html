@@ -79,30 +79,52 @@
                 <h2 class="modal-h2">Оставьте свои данные, мы вам перезвоним</h2>
              
                 <form autocomplete="on">
-                <div class="sizing">
-                <div class="form-grup-name"><label class="modal-name" 
+                <!-- <div class="sizing"> -->
+
+                <div class="form-grup-name">
+                  <label class="modal-name" 
                 for="name">Имя</label>
-               <input type="text" 
+               <input  type="text" 
+               class="input-modal"
                name="name" id="name"
-                placeholder="" 
-                autofocus></div>
-              
-              
-               <div class="form-grup-phone"><label class="modal-name" 
+                            placeholder=" " 
+                               autofocus>
+                <svg class="maodal-svg" width="12px" height="12px">
+                  <use href="./image/symbol-defs-modal.svg#icon-name"></use>
+                </svg>
+              </div>
+                            
+               <div class="form-grup-phone">
+                 <label class="modal-name" 
                for="tel">Телефон</label>
-              <input type="tel" name="telephone"
-               id="tel" placeholder=""></div>
+              <input  type="tel"
+              class="input-modal"
+                             name="telephone"
+               id="tel" placeholder=" ">
+               <svg class="maodal-svg" width="13px" height="13px">
+                 <use href="./image/symbol-defs-modal.svg#icon-phone"></use>
+               </svg>
+               <!-- <span class="icon"></span> -->
+              </div>
 
-               <div class="form-grup-mail"><label class="modal-name"
-                for="mail">Почта</label>
-               <input type="email" name="mail" 
-               id="mail" placeholder=""></div>
+               <div class="form-grup-mail">
+                 <label class="modal-name"
+                                 for="mail">Почта</label>
+               <input  type="email" name="mail" 
+               class="input-modal"
+               id="mail" placeholder="">
+               <svg class="maodal-svg" width="15px" height="12px">
+                 <use href="./image/symbol-defs-modal.svg#icon-mail"></use>
+               </svg>
+              </div>
 
-               <div class="form-group-coments"><label class="modal-name" 
+               <div class="form-group-coments">
+                 <label class="modal-name" 
                for="coment">Kоментарий</label>
-                <textarea name="" id="coment"
-                 placeholder="Введите текс">
-                </textarea></div></div></div>
+                <textarea name=""
+                class="input-modal-coment" id="coment"
+                 placeholder="Введите Ваш текс">
+                </textarea></div></div>
 
                <div class="form-grup"> <input type="checkbox" 
                 name="" id="politika">
@@ -110,6 +132,7 @@
                 for="politika">Соглашаюсь с рассылкой и принимаю
                 <Span class="contract">Условия договора</Span>
               </label></div>
+
                <button class="modal-button-send-form" type="submit">Отправить</button>
               </form></div>
             </div>
