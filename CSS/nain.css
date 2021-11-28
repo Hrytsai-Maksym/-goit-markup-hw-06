@@ -1577,15 +1577,21 @@ text-transform: uppercase;
 color: #FFFFFF;
 margin-bottom: 20px;
  }
+ .subscribe-to-the-newsletter-input input{
+   color: var(--backgroun-color-images);
+ }
  .subscribe-to-the-newsletter-input{
    width: 358px;
    height: 50px;
   background: #2F303A;
   border: 1px solid rgba(255, 255, 255, 0.3);
 box-sizing: border-box;
+text-decoration: #FFFFFF;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
 margin-right: 12px;
+padding-left: 12px;
+color: var(--backgroun-color-images);
  }
  .subscribe-to-the-newsletter-button{
    position: relative;
@@ -1601,19 +1607,20 @@ margin-right: 12px;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+
   
   color: #FFFFFF;
   background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-
+padding: 10px 62px 10px 29px;
  }
 .subscribe-to-the-newsletter-svg {
 position: absolute;
 content: "";
 top: 0;
 right: 0;
-transform: translate(-50%, 50%);
+transform: translate(-96%, 50%);
 display: inline-flex;
 
 
